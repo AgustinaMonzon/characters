@@ -3,4 +3,8 @@ module.exports = {
   list: async () => {
     return characters;
   },
+
+  create: async () => {
+    throw Error("Hay un error al momento de crear un personaje");
+  },
 };
