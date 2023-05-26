@@ -8,6 +8,6 @@ module.exports = {
   },
 
   create: async () => {
-    throw Error("Hay un error al momento de crear un personaje");
+    throw Error("Hay un error al momento de crear el personaje");
   },
 };
